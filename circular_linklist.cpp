@@ -56,7 +56,7 @@ void cir_list :: free_space(cir_list *obj)
     while(obj != NULL)
     {
         obj = obj->right;
-        delete temp
+        delete temp;
         temp = obj;
     }
 }
